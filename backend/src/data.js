@@ -21,7 +21,7 @@ export const sample_foods =[
         favorite:false,
         stars:4.6,
         imageUrl:'food-2.jpg',
-        tags:['Salad','Low calories','Breakfast','Veg'],
+        tags:['Veg'],
         
     },
     {
@@ -33,7 +33,7 @@ export const sample_foods =[
         favorite:false,
         stars:4.3,
         imageUrl:'food-3.jpg',
-        tags:['tofu','High Protein','Lunch','Veg'],
+        tags:['Veg'],
         
     },
     
@@ -46,7 +46,7 @@ export const sample_foods =[
         favorite:true,
         stars:4.8,
         imageUrl:'food-4.jpg',
-        tags:['Soup','Veg','Starter'],
+        tags:['Veg','Starter'],
         
     },
     {
@@ -58,7 +58,7 @@ export const sample_foods =[
         favorite:true,
         stars:4.5,
         imageUrl:'food-5.jpg',
-        tags:['Chicken','High Protein','brown rice','Lunch'],
+        tags:['Lunch'],
         
     },
     
@@ -71,7 +71,7 @@ export const sample_foods =[
         favorite:false,
         stars:4.6,
         imageUrl:'food-6.jpg',
-        tags:['Potato','Side Dish','Veg'],
+        tags:['Veg'],
         
     }
 ];
@@ -82,7 +82,6 @@ export const sample_tags=[
     {name:'Lunch',count:3},
     {name:'Chicken',count:2},
     {name:'Veg',count:4},
-    {name:'soup',count:1},
     {name:'Starter',count:1},
     {name:'Side Dish',count:1},
 
