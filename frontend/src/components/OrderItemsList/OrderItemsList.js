@@ -15,7 +15,7 @@ export default function OrderItemsList({ order }) {
         {order.items.map(item => (
           <tr key={item.food.id}>
             <td>
-            <img src={`foods/${item.food.imageUrl}`} alt={item.food.name} />
+            <img src={`${item.food.imageUrl}`} alt={item.food.name} />
             </td>
             <td>{item.food.name}</td>
             <td>
